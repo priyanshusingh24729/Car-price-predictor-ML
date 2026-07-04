@@ -1,0 +1,180 @@
+{
+  "Audi": [
+    "A3",
+    "A4",
+    "A6",
+    "A8",
+    "Q3",
+    "Q5",
+    "Q7"
+  ],
+  "BMW": [
+    "3",
+    "5",
+    "7",
+    "X1"
+  ],
+  "Chevrolet": [
+    "Beat",
+    "Cruze",
+    "Enjoy",
+    "Sail",
+    "Spark",
+    "Tavera"
+  ],
+  "Datsun": [
+    "GO",
+    "Go",
+    "Redi"
+  ],
+  "Fiat": [
+    "Linea",
+    "Petra",
+    "Punto"
+  ],
+  "Force": [
+    "Motors"
+  ],
+  "Ford": [
+    "EcoSport",
+    "Endeavor",
+    "Fiesta",
+    "Figo",
+    "Fusion",
+    "Ikon"
+  ],
+  "Hindustan": [
+    "Motors"
+  ],
+  "Honda": [
+    "Accord",
+    "Amaze",
+    "Brio",
+    "City",
+    "Jazz",
+    "Mobilio",
+    "WR"
+  ],
+  "Hyundai": [
+    "Accent",
+    "Creta",
+    "Elantra",
+    "Elite",
+    "Eon",
+    "Fluidic",
+    "Getz",
+    "Grand",
+    "Santro",
+    "Sonata",
+    "Verna",
+    "Xcent",
+    "i10",
+    "i20"
+  ],
+  "Jaguar": [
+    "XE",
+    "XF"
+  ],
+  "Jeep": [
+    "Wrangler"
+  ],
+  "Land": [
+    "Rover"
+  ],
+  "Mahindra": [
+    "Bolero",
+    "Jeep",
+    "KUV100",
+    "Logan",
+    "Quanto",
+    "Scorpio",
+    "TUV300",
+    "Thar",
+    "XUV500",
+    "Xylo"
+  ],
+  "Maruti": [
+    "800",
+    "A",
+    "Alto",
+    "Baleno",
+    "Celerio",
+    "Ciaz",
+    "Dzire",
+    "Eeco",
+    "Ertiga",
+    "Esteem",
+    "Estilo",
+    "Maruti",
+    "Omni",
+    "Ritz",
+    "S",
+    "SX4",
+    "Stingray",
+    "Swift",
+    "Versa",
+    "Vitara",
+    "Wagon",
+    "Zen"
+  ],
+  "Mercedes": [
+    "Benz"
+  ],
+  "Mini": [
+    "Cooper"
+  ],
+  "Mitsubishi": [
+    "Lancer",
+    "Pajero"
+  ],
+  "Nissan": [
+    "Micra",
+    "Sunny",
+    "Terrano",
+    "X"
+  ],
+  "Renault": [
+    "Duster",
+    "Kwid",
+    "Lodgy",
+    "Scala"
+  ],
+  "Skoda": [
+    "Fabia",
+    "Laura",
+    "Octavia",
+    "Rapid",
+    "Superb",
+    "Yeti"
+  ],
+  "Tata": [
+    "Aria",
+    "Bolt",
+    "Indica",
+    "Indigo",
+    "Manza",
+    "Nano",
+    "Sumo",
+    "Tiago",
+    "Tigor",
+    "Venture",
+    "Vista",
+    "Zest"
+  ],
+  "Toyota": [
+    "Corolla",
+    "Etios",
+    "Fortuner",
+    "Innova",
+    "Qualis"
+  ],
+  "Volkswagen": [
+    "Jetta",
+    "Passat",
+    "Polo",
+    "Vento"
+  ],
+  "Volvo": [
+    "S80"
+  ]
+}

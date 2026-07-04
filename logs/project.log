@@ -1,0 +1,35 @@
+2026-07-04 12:12:57 | INFO     | __main__ | === STAGE: TRAIN ===
+2026-07-04 12:12:57 | INFO     | src.preprocessing | Loading raw data from C:\Users\priya\OneDrive\Desktop\car-price-predictor\data\raw\quikr_car.csv
+2026-07-04 12:12:57 | INFO     | src.preprocessing | Starting raw cleaning with 892 rows
+2026-07-04 12:12:57 | INFO     | src.preprocessing | Cleaning complete: 892 -> 814 rows (78 dropped)
+2026-07-04 12:12:57 | INFO     | src.preprocessing | Rows dropped per cleaning step: {'invalid_year': 50, 'ask_for_price': 23, 'invalid_kms': 2, 'missing_fuel_type': 1, 'rare_fuel_type': 2}
+2026-07-04 12:12:57 | WARNING  | src.preprocessing | Row count differs from reference (814 vs 816) -- expected due to LPG-row removal, not an error.
+2026-07-04 12:12:57 | INFO     | src.train | Cleaning matches vendor reference file: False
+2026-07-04 12:12:57 | INFO     | src.preprocessing | Split data: 651 train rows, 163 test rows
+2026-07-04 12:12:57 | INFO     | src.preprocessing | TargetEncoder fitted on 'company': 24 categories, global_mean=406419.3364
+2026-07-04 12:12:57 | INFO     | src.preprocessing | TargetEncoder fitted on 'model': 118 categories, global_mean=406419.3364
+2026-07-04 12:12:57 | INFO     | src.train | Training LinearRegression on 651 samples, 6 features
+2026-07-04 12:12:57 | INFO     | src.train | Training complete. R^2 on train (log-scale): 0.7200
+2026-07-04 12:12:57 | INFO     | src.train | Saved model to C:\Users\priya\OneDrive\Desktop\car-price-predictor\models\linear_regression_model.pkl
+2026-07-04 12:12:57 | INFO     | src.train | Saved preprocessing artifacts to C:\Users\priya\OneDrive\Desktop\car-price-predictor\models\feature_metadata.pkl
+2026-07-04 12:13:18 | INFO     | __main__ | === STAGE: TRAIN ===
+2026-07-04 12:13:18 | INFO     | src.preprocessing | Loading raw data from C:\Users\priya\OneDrive\Desktop\car-price-predictor\data\raw\quikr_car.csv
+2026-07-04 12:13:18 | INFO     | src.preprocessing | Starting raw cleaning with 892 rows
+2026-07-04 12:13:18 | INFO     | src.preprocessing | Cleaning complete: 892 -> 814 rows (78 dropped)
+2026-07-04 12:13:18 | INFO     | src.preprocessing | Rows dropped per cleaning step: {'invalid_year': 50, 'ask_for_price': 23, 'invalid_kms': 2, 'missing_fuel_type': 1, 'rare_fuel_type': 2}
+2026-07-04 12:13:18 | WARNING  | src.preprocessing | Row count differs from reference (814 vs 816) -- expected due to LPG-row removal, not an error.
+2026-07-04 12:13:18 | INFO     | src.train | Cleaning matches vendor reference file: False
+2026-07-04 12:13:18 | INFO     | src.preprocessing | Split data: 651 train rows, 163 test rows
+2026-07-04 12:13:18 | INFO     | src.preprocessing | TargetEncoder fitted on 'company': 24 categories, global_mean=406419.3364
+2026-07-04 12:13:18 | INFO     | src.preprocessing | TargetEncoder fitted on 'model': 118 categories, global_mean=406419.3364
+2026-07-04 12:13:18 | INFO     | src.train | Training LinearRegression on 651 samples, 6 features
+2026-07-04 12:13:18 | INFO     | src.train | Training complete. R^2 on train (log-scale): 0.7200
+2026-07-04 12:13:18 | INFO     | src.train | Saved model to C:\Users\priya\OneDrive\Desktop\car-price-predictor\models\linear_regression_model.pkl
+2026-07-04 12:13:18 | INFO     | src.train | Saved preprocessing artifacts to C:\Users\priya\OneDrive\Desktop\car-price-predictor\models\feature_metadata.pkl
+2026-07-04 12:13:18 | INFO     | __main__ | === STAGE: EVALUATE ===
+2026-07-04 12:13:18 | INFO     | src.evaluate | Evaluation metrics -- MAE: 176804.73 | MSE: 144528450438.85 | RMSE: 380168.98 | R2: 0.2062
+2026-07-04 12:13:18 | INFO     | src.evaluate | Saved actual-vs-predicted plot to notebooks\eda_plots\actual_vs_predicted.png
+2026-07-04 12:13:18 | INFO     | src.evaluate | Saved residual plot to notebooks\eda_plots\residual_plot.png
+2026-07-04 12:13:18 | INFO     | src.evaluate | Saved error distribution plot to notebooks\eda_plots\error_distribution.png
+2026-07-04 12:14:48 | INFO     | src.predict | Loaded model and preprocessing artifacts for inference.
+2026-07-04 12:39:59 | INFO     | src.predict | Loaded model and preprocessing artifacts for inference.
